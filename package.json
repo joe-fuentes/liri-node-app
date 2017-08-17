@@ -1,0 +1,28 @@
+/*
+    Initialize a package.json file at your project root. Be sure to save all of the npm packages you'll be using to this file. If you fail to initialize a package.json file and save your dependencies to it, it will be troublesome, and at times almost impossible for anyone else to run your code.
+
+    Do Not add this file to the .gitignore. This would be a good thing to do in the real world, but it makes grading this assignment a challenge.
+*/   
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "Language Interpretation and Recognition Interface",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "liri"
+  ],
+  "author": "Joe Fuentes",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.81.0",
+    "spotify": "^0.3.0",
+    "twitter": "^1.7.1"
+  }
+}
