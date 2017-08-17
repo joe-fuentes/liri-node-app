@@ -304,3 +304,8 @@ if (liriCommand === 'my-tweets') {
 		});
 	});
 }
+/*
+NOTE:
+The only command that works is -->"node liri.js my-tweets"<--
+The rest needs work.
+*/
