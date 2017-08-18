@@ -163,7 +163,7 @@ function getMovieInfo(movie) {
 	search = search.split(' ').join('+');
 
 	// Construct the query string
-	var queryStr = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=40e9cece";
+	var queryStr = 'http://www.omdbapi.com/?t=' + movie + '&y=&plot=short&apikey=40e9cece';
 
 	// Send the request to OMDB
 	request(queryStr, function (error, response, body) {
@@ -207,7 +207,7 @@ function getMovieInfo(movie) {
 								'Movie Title: ' + data.Title + '\n' + 
 								'Year Released: ' + data.Released + '\n' +
 								'IMBD Rating: ' + data.imdbRating + '\n' +
-								'Rotten Tomatoes Rating: ' + data.tomatoRating + '\n' +
+								'Rotten Tomatoes Rating: ' + data.Ratings[1].Value + '\n' +
 								'Country Produced: ' + data.Country + '\n' +
 								'Language: ' + data.Language + '\n' +
 								'Plot: ' + data.Plot + '\n' +
@@ -308,8 +308,3 @@ if (liriCommand === 'my-tweets') {
 		});
 	});
 }
-/*
-NOTE:
-The only command that works is -->"node liri.js my-tweets"<--
-The rest needs work.
-*/

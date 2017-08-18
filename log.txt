@@ -273,3 +273,264 @@ Language: English
 Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
 Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
 
+User Command: node liri.js do-what-it-says
+
+User Command: node liri.js spotify-this-song "I Want it That Way"
+
+LIRI Response:
+
+------------------------
+Song Information:
+------------------------
+
+Song Name: I Want It That Way
+Artist: Backstreet Boys
+Album: The Hits--Chapter One
+Preview Here: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=950793a0316f420a818a278e67583a1a
+
+User Command: node liri.js do-what-it-says
+
+User Command: node liri.js spotify-this-song "I Want it That Way"
+
+LIRI Response:
+
+------------------------
+Song Information:
+------------------------
+
+Song Name: I Want It That Way
+Artist: Backstreet Boys
+Album: The Hits--Chapter One
+Preview Here: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=950793a0316f420a818a278e67583a1a
+
+User Command: node liri.js movie-this The Matrix 
+
+User Command: node liri.js movie-this The Matrix 
+
+LIRI Response:
+
+------------------------
+Movie Information:
+------------------------
+
+Movie Title: The Matrix
+Year Released: 31 Mar 1999
+IMBD Rating: 8.7
+Rotten Tomatoes Rating: undefined
+Country Produced: USA
+Language: English
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
+User Command: node liri.js movie-this The Matrix 
+
+LIRI Response:
+
+------------------------
+Movie Information:
+------------------------
+
+Movie Title: The Matrix
+Year Released: 31 Mar 1999
+IMBD Rating: 8.7
+Rotten Tomatoes Rating: undefined
+Country Produced: USA
+Language: English
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
+User Command: node liri.js movie-this 
+
+ERROR: No movie info retrieved, please check the spelling of the movie name!User Command: node liri.js movie-this  
+
+ERROR: No movie info retrieved, please check the spelling of the movie name!User Command: node liri.js movie-this   
+
+ERROR: No movie info retrieved, please check the spelling of the movie name!User Command: node liri.js movie-this The Notebook 
+
+LIRI Response:
+
+------------------------
+Movie Information:
+------------------------
+
+Movie Title: The Notebook
+Year Released: 25 Jun 2004
+IMBD Rating: 7.9
+Rotten Tomatoes Rating: undefined
+Country Produced: USA
+Language: English
+Plot: A poor yet passionate young man falls in love with a rich young woman, giving her a sense of freedom, but they are soon separated because of their social differences.
+Actors: Tim Ivey, Gena Rowlands, Starletta DuPois, James Garner
+
+User Command: node liri.js movie-this The Matrix 
+
+LIRI Response:
+
+------------------------
+Movie Information:
+------------------------
+
+Movie Title: The Matrix
+Year Released: 31 Mar 1999
+IMBD Rating: 8.7
+Rotten Tomatoes Rating: [object Object],[object Object],[object Object]
+Country Produced: USA
+Language: English
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
+User Command: node liri.js movie-this The Matrix 
+
+LIRI Response:
+
+------------------------
+Movie Information:
+------------------------
+
+Movie Title: The Matrix
+Year Released: 31 Mar 1999
+IMBD Rating: 8.7
+Rotten Tomatoes Rating: [object Object]
+Country Produced: USA
+Language: English
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
+User Command: node liri.js movie-this The Matrix 
+
+LIRI Response:
+
+------------------------
+Movie Information:
+------------------------
+
+Movie Title: The Matrix
+Year Released: 31 Mar 1999
+IMBD Rating: 8.7
+Rotten Tomatoes Rating: undefined
+Country Produced: USA
+Language: English
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
+User Command: node liri.js movie-this The Matrix 
+
+LIRI Response:
+
+------------------------
+Movie Information:
+------------------------
+
+Movie Title: The Matrix
+Year Released: 31 Mar 1999
+IMBD Rating: 8.7
+Rotten Tomatoes Rating: undefined
+Country Produced: USA
+Language: English
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
+User Command: node liri.js movie-this The Matrix 
+
+LIRI Response:
+
+------------------------
+Movie Information:
+------------------------
+
+Movie Title: The Matrix
+Year Released: 31 Mar 1999
+IMBD Rating: 8.7
+Rotten Tomatoes Rating: undefined
+Country Produced: USA
+Language: English
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
+User Command: node liri.js movie-this The Matrix 
+
+LIRI Response:
+
+------------------------
+Movie Information:
+------------------------
+
+Movie Title: The Matrix
+Year Released: 31 Mar 1999
+IMBD Rating: 8.7
+Rotten Tomatoes Rating: [object Object],[object Object],[object Object]
+Country Produced: USA
+Language: English
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
+User Command: node liri.js movie-this The Matrix 
+
+LIRI Response:
+
+------------------------
+Movie Information:
+------------------------
+
+Movie Title: The Matrix
+Year Released: 31 Mar 1999
+IMBD Rating: 8.7
+Rotten Tomatoes Rating: undefined
+Country Produced: USA
+Language: English
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
+User Command: node liri.js movie-this The Matrix 
+
+LIRI Response:
+
+------------------------
+Movie Information:
+------------------------
+
+Movie Title: The Matrix
+Year Released: 31 Mar 1999
+IMBD Rating: 8.7
+Rotten Tomatoes Rating: [object Object]
+Country Produced: USA
+Language: English
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
+User Command: node liri.js movie-this The Matrix 
+
+LIRI Response:
+
+------------------------
+Movie Information:
+------------------------
+
+Movie Title: The Matrix
+Year Released: 31 Mar 1999
+IMBD Rating: 8.7
+Rotten Tomatoes Rating: undefined
+Country Produced: USA
+Language: English
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
+User Command: node liri.js movie-this The Matrix 
+
+User Command: node liri.js movie-this The Matrix 
+
+LIRI Response:
+
+------------------------
+Movie Information:
+------------------------
+
+Movie Title: The Matrix
+Year Released: 31 Mar 1999
+IMBD Rating: 8.7
+Rotten Tomatoes Rating: 87%
+Country Produced: USA
+Language: English
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
