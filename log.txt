@@ -87,3 +87,120 @@ User Command: node liri.js spotify-this-song Help!
 
 User Command: node liri.js spotify-this-song Hello 
 
+User Command: node liri.js my-tweets
+
+LIRI Response:
+
+------------------------
+User Tweets:
+------------------------
+
+Created on: Tue Aug 15 03:12:31 +0000 2017
+Tweet content: If you want to be a winner, fall in love with everything that you do
+------------------------
+Created on: Tue Aug 15 03:12:01 +0000 2017
+Tweet content: How about that Donald Trump...
+Twitter's best friend!
+------------------------
+Created on: Tue Aug 15 03:10:54 +0000 2017
+Tweet content: HATE - it has caused a lot of problems in the world. But, it has not solve one yet.
+- Maya Angelou
+------------------------
+Created on: Tue Aug 15 03:08:35 +0000 2017
+Tweet content: God will fill your heart with love, cure your pain, prosper you if you trust Him.
+------------------------
+Created on: Tue Aug 15 03:06:38 +0000 2017
+Tweet content: Don't quit! The beginning is always the hardest!
+------------------------
+Created on: Tue Aug 15 03:04:41 +0000 2017
+Tweet content: Don't be afraid, just BELIEVE.
+ - Mark 5:36
+------------------------
+Created on: Tue Aug 15 03:03:27 +0000 2017
+Tweet content: The way to be a winner is through your attitude.
+------------------------
+Created on: Tue Aug 15 03:02:30 +0000 2017
+Tweet content: What is up with me??? Everything I do turns out wrong.
+I stuck needles at my mother-in-law's photo and her arthritis got cured with acupunct
+------------------------
+Created on: Tue Aug 15 02:55:08 +0000 2017
+Tweet content: Where can I find a great pair of glasses to view the eclipse? https://t.co/TgDCZVzgpn
+------------------------
+Created on: Tue Aug 15 02:53:18 +0000 2017
+Tweet content: What is up with these "Descendants" movies?!! I feel very old!
+------------------------
+Created on: Tue Aug 15 02:51:15 +0000 2017
+Tweet content: I never thought pizza could be so good!!! https://t.co/0L53Cn8FmA
+------------------------
+Created on: Tue Aug 15 02:49:59 +0000 2017
+Tweet content: Now There's TRUE LOVE!!!$$$$ https://t.co/0azWiPqmnO
+------------------------
+Created on: Tue Aug 15 02:33:48 +0000 2017
+Tweet content: Saw the "Wonder Woman" movie. Where is that island of Amazon???!!!
+I've been searching for it all night long!!
+------------------------
+Created on: Sun Aug 13 06:01:33 +0000 2017
+Tweet content: You know you are on the right track when you become uninterested in looking back.
+------------------------
+Created on: Sun Aug 13 05:42:39 +0000 2017
+Tweet content: May your choices reflect your hopes, not your fears. - Nelson Mandela
+------------------------
+Created on: Sun Aug 13 05:27:25 +0000 2017
+Tweet content: Persist
+Until
+Something
+Happens
+------------------------
+Created on: Sun Aug 13 05:21:53 +0000 2017
+Tweet content: There is always someone who cares for you without you knowing about it.
+------------------------
+Created on: Sun Aug 13 05:17:50 +0000 2017
+Tweet content: Feel GOOD about yourSELF!
+------------------------
+Created on: Sun Aug 13 04:50:08 +0000 2017
+Tweet content: Hello out there! You're looking gooooood!
+------------------------
+Created on: Sun Aug 13 04:48:34 +0000 2017
+Tweet content: Just setting up my Twitter. #myfirstTweet
+------------------------
+
+User Command: node liri.js spotify-this-song Hello 
+
+User Command: node liri.js spotify-this-song Hello! 
+
+User Command: node liri.js movie-this Jaws 
+
+ERROR: Retrieving OMDB entry -- nullUser Command: node liri.js movie-this Jaws 
+
+ERROR: Retrieving OMDB entry -- nullUser Command: node liri.js movie-this Wonder Woman 
+
+ERROR: Retrieving OMDB entry -- nullUser Command: node liri.js do-what-it-says
+
+User Command: node liri.js spotify-this-song "I Want it That Way"
+
+User Command: node liri.js spotify-this-song Hello! 
+
+LIRI Response:
+
+------------------------
+Song Information:
+------------------------
+
+Song Name: Hello
+Artist: Adele
+Album: Hello
+Preview Here: https://p.scdn.co/mp3-preview/0b90429fd554bad6785faa2b8931d613db4a0ee4?cid=950793a0316f420a818a278e67583a1a
+
+User Command: node liri.js spotify-this-song 
+
+LIRI Response:
+
+------------------------
+Song Information:
+------------------------
+
+Song Name: The Sign
+Artist: Ace of Base
+Album: The Sign (US Album) [Remastered]
+Preview Here: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=950793a0316f420a818a278e67583a1a
+

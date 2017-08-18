@@ -15,14 +15,18 @@ Do not overwrite your file each time you run a command.
 */
 
 var Twitter = require('twitter');
-var spotify = require('spotify');
+var Spotify = require('node-spotify-api');
 var request = require('request'); // You'll use Request to grab data from the OMDB API.
 var fs = require('fs');
 
 // At the top of the liri.js file, write the code you need to grab the data from keys.js. Then store the keys in a variable.
-
 var keys = require('./keys.js');
 var twitterKeys = keys.twitterKeys;
+
+var spotify = new Spotify({
+  id: '950793a0316f420a818a278e67583a1a',
+  secret: '064af08075d64d26bbb630b5653146e2'
+});
 
 // Read in the command line arguments
 var cmdArgs = process.argv;
@@ -91,7 +95,8 @@ function spotifySong(song) {
 
 	// If no song is provided, LIRI defaults to 'The Sign' by Ace Of Base
 	var search;
-	if (song === '') {
+
+  	if (song === '') {
 		search = 'The Sign Ace Of Base';
 	} else {
 		search = song;
