@@ -204,3 +204,72 @@ Artist: Ace of Base
 Album: The Sign (US Album) [Remastered]
 Preview Here: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=950793a0316f420a818a278e67583a1a
 
+User Command: node liri.js movie-this The Matrix 
+
+ERROR: Retrieving OMDB entry -- nullUser Command: node liri.js movie-this The Matrix 
+
+LIRI Response:
+
+------------------------
+Movie Information:
+------------------------
+
+Movie Title: The Matrix
+Year Released: 31 Mar 1999
+IMBD Rating: 8.7
+Country Produced: USA
+Language: English
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+Rotten Tomatoes Rating: undefined
+Rotten Tomatoes URL: undefined
+
+User Command: node liri.js movie-this The Matrix 
+
+LIRI Response:
+
+------------------------
+Movie Information:
+------------------------
+
+Movie Title: The Matrix
+Year Released: 31 Mar 1999
+IMBD Rating: 8.7
+Country Produced: USA
+Language: English
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
+User Command: node liri.js movie-this The Matrix 
+
+LIRI Response:
+
+------------------------
+Movie Information:
+------------------------
+
+Movie Title: The Matrix
+Year Released: 31 Mar 1999
+IMBD Rating: 8.7
+Country Produced: USA
+Language: English
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+
+User Command: node liri.js movie-this The Matrix 
+
+LIRI Response:
+
+------------------------
+Movie Information:
+------------------------
+
+Movie Title: The Matrix
+Year Released: 31 Mar 1999
+IMBD Rating: 8.7
+Rotten Tomatoes Rating: undefined
+Country Produced: USA
+Language: English
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+

@@ -142,20 +142,8 @@ function spotifySong(song) {
 	    }
 	});
 }
-/*
-node liri.js movie-this '<movie name here>'
 
-This will output the following information to your terminal/bash window:
-
-  * Title of the movie.
-  * Year the movie came out.
-  * IMDB Rating of the movie.
-  * Rotten Tomatoes Rating of the movie.
-  * Country where the movie was produced.
-  * Language of the movie.
-  * Plot of the movie.
-  * Actors in the movie.
-*/
+// node liri.js movie-this '<movie name here>'
 // retrieveOMDBInfo will retrieve information on a movie from the OMDB database
 function getMovieInfo(movie) {
 	// Append the command to the log file
@@ -175,7 +163,7 @@ function getMovieInfo(movie) {
 	search = search.split(' ').join('+');
 
 	// Construct the query string
-	var queryStr = 'http://www.omdbapi.com/?t=' + search + '&plot=full&tomatoes=true';
+	var queryStr = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=40e9cece";
 
 	// Send the request to OMDB
 	request(queryStr, function (error, response, body) {
@@ -200,6 +188,18 @@ function getMovieInfo(movie) {
 				});
 				return;
 			} else {
+				/*
+				This will output the following information to your terminal/bash window:
+
+				  * Title of the movie.
+				  * Year the movie came out.
+				  * IMDB Rating of the movie.
+				  * Rotten Tomatoes Rating of the movie.
+				  * Country where the movie was produced.
+				  * Language of the movie.
+				  * Plot of the movie.
+				  * Actors in the movie.
+				*/
 		    	// Pretty print the movie information
 		    	var outputString = '------------------------\n' + 
 								'Movie Information:\n' + 
@@ -207,12 +207,11 @@ function getMovieInfo(movie) {
 								'Movie Title: ' + data.Title + '\n' + 
 								'Year Released: ' + data.Released + '\n' +
 								'IMBD Rating: ' + data.imdbRating + '\n' +
+								'Rotten Tomatoes Rating: ' + data.tomatoRating + '\n' +
 								'Country Produced: ' + data.Country + '\n' +
 								'Language: ' + data.Language + '\n' +
 								'Plot: ' + data.Plot + '\n' +
-								'Actors: ' + data.Actors + '\n' + 
-								'Rotten Tomatoes Rating: ' + data.tomatoRating + '\n' +
-								'Rotten Tomatoes URL: ' + data.tomatoURL + '\n';
+								'Actors: ' + data.Actors + '\n'; 
 
 				// Append the output to the log file
 				fs.appendFile('./log.txt', 'LIRI Response:\n\n' + outputString + '\n', (err) => {
